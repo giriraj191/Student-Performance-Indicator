@@ -18,7 +18,7 @@ logging.basicConfig(
 
 
 # Testing Code
-# if __name__ == "__main__":
-#     for i in range(1, 4):
-#         logging.info(f"Test {i}: Logging is working fine :)")
-#         time.sleep(3)
+if __name__ == "__main__":
+    for i in range(1, 4):
+        logging.info(f"Test {i}: Logging is working fine :)")
+        time.sleep(3)

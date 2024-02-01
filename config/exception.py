@@ -13,15 +13,16 @@ class CustomException(Exception):
     def __init__(self, error_message, error_detail:sys):
         super().__init__(error_message)
         self.error_message = error_message_detail(error_message, error_detail=error_detail)
+        logging.info("ERROR: ", error_message)
     
     def __str__(self):  
         return self.error_message
 
 
 # Testing Code
-if __name__ == "__main__":
-    try:
-        a = 1/0
-    except Exception as e:
-        logging.info("DIVIDE BY ZERO EXCEPTION")
-        raise CustomException(e, sys)
+# if __name__ == "__main__":
+#     try:
+#         a = 1/0
+#     except Exception as e:
+#         logging.info("DIVIDE BY ZERO EXCEPTION")
+#         raise CustomException(e, sys)

@@ -24,7 +24,7 @@ def get_requirements (file_path:str) -> List[str]:
 
 
 setup(
-    name='Student Performance Indicator',
+    name='student_performance_indicator',
     version='0.0.1',
     author='Giriraj',
     author_email='graj05645@gmail.com',

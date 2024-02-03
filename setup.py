@@ -26,7 +26,7 @@ def get_requirements (file_path:str) -> List[str]:
 setup(
     name='student_performance_indicator',
     version='0.0.1',
-    author='Giriraj',
+    author='giriraj',
     author_email='graj05645@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')

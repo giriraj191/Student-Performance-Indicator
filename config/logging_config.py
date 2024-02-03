@@ -9,7 +9,7 @@ LOGS_PATH = os.path.join(os.getcwd(),"logs")
 os.makedirs(LOGS_PATH, exist_ok=True)
 LOG_FILE_PATH = os.path.join(LOGS_PATH, LOG_FILE_NAME)
 
-
+# Basic logging object/info
 logging.basicConfig(
     filename = LOG_FILE_PATH, # In which file we have to write logs? Hence, requires whole file path.
     format = '[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s',
